@@ -11,7 +11,7 @@ const app = express();
 
 // ✅ CORS Configuration to allow frontend with credentials
 const corsOptions = {
-  origin: "http://localhost:5173", // frontend origin
+  origin: "https://notes-frontend-blond.vercel.app/", // frontend origin
   credentials: true,              // allow cookies, authorization headers, etc.
 };
 app.use(cors(corsOptions));
